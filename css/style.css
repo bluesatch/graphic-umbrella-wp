@@ -1,0 +1,318 @@
+/* font-family PT Sans */
+/* THAT GREEN COLOR: #a0c63f */
+/* general rules */
+
+body {
+    background-image: url(../media/pattern.jpg);
+    font-family: 'Armata', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #1c1c1c;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #1c1c1c;
+}
+
+main {
+    background-image: url(../media/pattern.jpg);
+    padding: 20px 0;
+}
+
+/* top bar */
+
+.navbar ul {
+    padding-left: 0;
+    margin-top: 40px;
+    text-align: right;
+
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 60px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navbar a:hover {
+    color: #a0c63f;
+    text-decoration: none;
+}
+
+/* branding */
+
+.branding {
+    width: 100%;
+    padding-top: 20px;
+    background: #a0c63f;
+    margin-bottom: 30px;
+}
+
+/* services */
+
+.outer-box {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background: #fff;
+    border: 2px solid #e7e7e7;
+    border-radius: 50%;
+}
+
+.image-box {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 100px;
+    height: 100px;
+    background: #8eb53e;
+    border-radius: 50%;
+
+}
+
+.services img {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+}
+
+.services p {
+    text-align: center;
+}
+
+.minor {
+    text-transform: capitalize;
+}
+
+.major {
+    display: block;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #a0c63f;
+}
+
+.portfolio-item {
+    margin: 0 0 30px;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+}
+
+
+.product-img img {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    max-width: none;
+}
+
+
+.products {
+    background: white;
+}
+
+.products h3 {
+    font-size: 18px;
+}
+
+.products p {
+    font-size: 12px;
+}
+
+.products button {
+    background: #a0c63f;
+    padding: 0 5px;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 0;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px 0;
+    background: white;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer h2 {
+    font-size: 22px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #a0c63f;
+}
+
+.archives li {
+    padding: 5px 0;
+    border-bottom: 2px dotted #e7e7e7;
+}
+
+.contacts li {
+    padding: 5px 0;
+}
+
+.contacts img {
+    padding-right: 8px;
+}
+
+.input-field {
+    margin: 10px 0;
+    padding: 8px 4px;
+    display: block;
+    width: 100%;
+    background: #eee;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.subscribe-button{
+    display: block;
+    padding: 3px 6px; 
+    color: #e7e7e7;
+    background: #a0c63f;
+    text-transform: uppercase;
+    /* text-align: right; */
+    float: right;
+    text-shadow: 1px 1px 2px #333;
+    border-radius: 2px;
+}
+
+.colophon {
+    background: black;
+    padding-bottom: 3px;
+}
+
+.colophon ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.colophon li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.colophon a {
+    color: white;
+}
+
+.colophon a:hover {
+    text-decoration: none;
+    color: #a0c63f;
+}
+
+.colophon p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 9px;
+    text-align: right;
+}
+
+/* about page */
+
+.about-main {
+    border-top: 30px solid #a0c63f;
+}
+
+.content-box {
+    margin-bottom: 30px;
+    background: white;
+    border: 2px solid #e7e7e7;
+}
+
+.about h2 {
+    margin-right: 0;
+    padding: 8px 0;
+    font-size: 22px;
+    max-width: 225px;
+    border-bottom: 2px dotted #999;
+}
+
+.about p {
+    margin-right: 0;
+    padding: 6px 0;
+}
+
+.heading h2 {
+    margin-left: 0;
+    padding: 8px 0 10px 0;
+    max-width: 150px;
+    border-bottom: 2px dotted #999;
+    font-size: 18px;
+}
+
+.heading p {
+    margin: 0;
+    padding: 6px 0;
+}
+
+.heading h3 {
+    font-size: 16px;
+    padding: 8px 0 10px 0;
+    max-width: 150px;
+    border-bottom: 2px dotted #999;
+}
+
+.heading ul {
+    padding-left: 0;
+    list-style: inside;
+}
+
+.heading li {
+    padding: 6px 0;
+}
+
+.heading a:hover {
+    text-decoration: none;
+    color: #a0c63f;
+}
+
+.backToTop {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #a0c63f;
+    border-radius: 50%;
+    float: right;
+}
+
+.backToTop p{
+    position: absolute;
+    top: 3px;
+    left: 5px; 
+    color: white;
+}
+
+.backToTop a {
+    text-decoration: none;
+}
+
+
+
