@@ -35,7 +35,6 @@ main {
     padding-left: 0;
     margin-top: 40px;
     text-align: right;
-
 }
 
 .navbar li {
@@ -83,7 +82,6 @@ main {
     height: 100px;
     background: #8eb53e;
     border-radius: 50%;
-
 }
 
 .services img {
@@ -332,11 +330,16 @@ main {
     border: 2px solid #e7e7e7;
 }
 
+.news-box h2 {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #999;
+}
+
 .news-header {
     max-width: 150px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     font-size: 18px;
-    border-bottom: 2px dotted #999;
+    /* border-bottom: 2px dotted #999; */
 }
 
 .news-items h3 {
@@ -356,6 +359,12 @@ main {
 }
 
 .categories {
+    max-width: 200px;
+    font-size: 16px;
+}
+
+.tags {
+    max-width: 200px;
     font-size: 16px;
 }
 
