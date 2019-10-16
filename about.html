@@ -13,23 +13,31 @@
     <div class="topnav">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-5 col-md-5 col-xs-12">
                     <h1>
                         <img src="media/logo.png" alt="placeholder img">
                         <span class="sr-only">graphics umbrella</span>
                     </h1>
                 </div>
                 <!-- close col-sm-6 -->
-                <div class="col-sm-7">
-                    <div class="navbar">
-                        <ul>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">home</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">news</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">products</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">features</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">contact</a></li>
-                        </ul>
-                    </div>
+                <div class="col-sm-7 col-md-7">
+                    <nav>
+                        <div id="menuToggle">
+                            <input type="checkbox">
+                            <div class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <ul id="menu">
+                                <li><a href="index.html" target="_blank" rel="noopener noreferrer">home</a></li>
+                                <li><a href="news.html" target="_blank" rel="noopener noreferrer">news</a></li>
+                                <li><a href="#link" target="_blank" rel="noopener noreferrer">products</a></li>
+                                <li><a href="#link" target="_blank" rel="noopener noreferrer">features</a></li>
+                                <li><a href="#link" target="_blank" rel="noopener noreferrer">contact</a></li>
+                            </ul>
+                        </div>   
+                    </nav>
                     <!-- close navbar -->
                 </div>
                 <!-- close col-sm-6 -->
@@ -42,7 +50,7 @@
     <main class="about-main" id="top">
         <div class="container content-box">
             <div class="row">
-                <div class="col-sm-7 about">
+                <div class="col-sm-8 about">
                     <h2><span class="about-header">about us</span></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laboriosam quasi qui, minima cupiditate quidem in? Iusto in beatae quisquam autem velit eveniet sunt, libero dignissimos aspernatur magnam nam odio, possimus provident! Consequuntur ullam praesentium, ipsum vel minus, dolorem consectetur rerum fugiat veritatis quae ipsa, necessitatibus sequi quasi ipsam saepe.</p>
                     <img src="https://via.placeholder.com/600x220" alt="placeholder img" class="img-responsive">
@@ -52,7 +60,7 @@
                     <p>Facere officiis, architecto, consequuntur quis soluta qui ducimus dolore possimus libero, velit doloremque tenetur ratione nesciunt est! Molestiae reprehenderit natus voluptas aspernatur rerum quia sequi soluta quod, dolore nesciunt distinctio nihil, culpa error fugit cumque voluptatibus consequatur alias, amet hic labore inventore ea. Fuga alias, illum ad cupiditate placeat commodi!</p>
                     
                 </div>
-                <div class="col-sm-5 heading side-bar">
+                <div class="col-sm-offset-1 col-sm-3 heading side-bar">
                     <h2>heading</h2>
                     <img src="https://via.placeholder.com/400x140" alt="placeholder img" class="img-responsive">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem aspernatur consequatur nam minima nobis, distinctio blanditiis, molestias similique dicta eligendi inventore consequuntur nostrum voluptatibus ipsa vero, ad molestiae fugiat optio.</p>
@@ -86,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h2>little about us</h2>
+                    <h2><a href="about.html">little about us</a></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus ullam soluta nesciunt iusto vel omnis, fugit aspernatur beatae esse?</p>
                     <h2>follow us</h2>
                     <!-- icons go here -->
@@ -109,19 +117,28 @@
                 </div>
                 <!-- /.col-sm-3 -->
                 <div class="col-sm-3 contacts">
-                  <h2>contact us</h2>
-                  <ul>
-                        <li><a href="mailto:info@premiumcoding.com">
-                                <img src="media/icon-small-envelope.gif" alt="email">info@premiumcoding.com
-                            </a>
+                    <h2>contact us</h2>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="mailto:info@premiumcoding.com">
+                                    <img src="media/icon-small-envelope.gif" alt="email">info@premiumcoding.com
+                                </a>
+                            </p>  
                         </li>
-                        <li><a href="#link">
-                                <img src="media/icon-small-phone copy.gif" alt="phone">800 756 156
-                            </a>
+                        <li>
+                            <p>
+                                <a href="#link">
+                                    <img src="media/icon-small-phone copy.gif" alt="phone">800 756 156
+                                </a>
+                            </p> 
                         </li>
-                        <li><a href="#link">
-                                <img src="media/icon-small-mobile copy.gif" alt="mobile number"> +386408007561
-                            </a>
+                        <li>
+                            <p>
+                                <a href="#link">
+                                    <img src="media/icon-small-mobile copy.gif" alt="mobile number"> +386408007561
+                                </a>
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -152,7 +169,7 @@
                             <li><a href="#link" target="_blank" rel="noopener noreferrer">contact</a></li>
                         </ul>
                     </div>
-                      <!-- /.bottomnav -->
+                    <!-- /.bottomnav -->
                 </div>
                 <!-- /.col-sm-6 -->
                 <div class="col-sm-6">

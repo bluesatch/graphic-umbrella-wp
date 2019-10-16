@@ -13,23 +13,31 @@
     <div class="topnav">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-5 col-md-5 col-xs-12">
                     <h1>
                         <img src="media/logo.png" alt="placeholder img">
                         <span class="sr-only">graphics umbrella</span>
                     </h1>
                 </div>
-                <!-- close col-sm-6 -->
-                <div class="col-sm-7">
-                    <div class="navbar">
-                        <ul>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">home</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">news</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">products</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">features</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">contact</a></li>
-                        </ul>
-                    </div>
+                <!-- close col-sm-5 -->
+                <div class="col-sm-7 col-md-7">
+                    <nav>
+                        <div id="menuToggle">
+                            <input type="checkbox">
+                            <div class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <ul id="menu">
+                                <li><a href="index.html" target="_blank" rel="noopener noreferrer">home</a></li>
+                                <li><a href="news.html" target="_blank" rel="noopener noreferrer">news</a></li>
+                                <li><a href="#link" target="_blank" rel="noopener noreferrer">products</a></li>
+                                <li><a href="#link" target="_blank" rel="noopener noreferrer">features</a></li>
+                                <li><a href="#link" target="_blank" rel="noopener noreferrer">contact</a></li>
+                            </ul>
+                        </div>   
+                    </nav>
                     <!-- close navbar -->
                 </div>
                 <!-- close col-sm-6 -->
@@ -41,7 +49,7 @@
     <main class="news-main" id="top">
         <div class="container news-box">
             <div class="row">
-                <div class="col-sm-7 news-items">
+                <div class="col-sm-8 news-items">
                     <h2 class="news-header">News</h2>
                     <h3>Title Of An Article</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic saepe consequatur perspiciatis sed quaerat facilis at autem, nesciunt, in tempora dolorem. Labore nesciunt facere, sunt expedita quasi quas fugit. Culpa atque delectus neque harum tempore asperiores. Odio sunt harum labore.</p>
@@ -53,7 +61,7 @@
                     <p>Dolore expedita praesentium doloremque fugiat aliquam sequi tempore tempora cumque facilis ullam voluptatibus libero cupiditate voluptate incidunt dicta et iusto cum reiciendis delectus est modi, harum mollitia consequuntur. Vel, ex doloribus incidunt ipsa ipsum porro a corporis aut itaque temporibus!</p>
                 </div>
                 <!-- /.col-sm-7 -->
-                <div class="col-sm-5 side-bar">
+                <div class="col-sm-offset-1 col-sm-3 side-bar">
                     <form action="#link">
                         <input type="search" name="search" value="SEARCH" class="search">
                     </form>
@@ -91,85 +99,94 @@
             </div>
     </main>
     <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h2>little about us</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus ullam soluta nesciunt iusto vel omnis, fugit aspernatur beatae esse?</p>
-                        <h2>follow us</h2>
-                        <!-- icons go here -->
-                        <a href=#link target="_blank"><img src="media/icons-small-fb.gif" alt="facebook"></a>
-                        <a href=#link target="_blank"><img src="media/icons-small-tw.gif" alt="twitter"></a>
-                        <a href=#link target="_blank"><img src="media/icons-small-rss.gif" alt="rss"></a>
-                        <a href=#link target="_blank"><img src="media/icons-small-vimeo.gif" alt="vimeo"></a>
-                        <a href=#link target="_blank"><img src="media/icons-small-dribble.gif" alt="dribble"></a>
-                        <a href=#link target="_blank"><img src="media/icons-small-blogger.gif" alt="blogger"></a>
-                    </div>
-                    <!-- /.col-sm-3 -->
-                    <div class="col-sm-3 archives">
-                        <h2>archives</h2>
-                        <ul>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">March 2012</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">February 2012</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">January 2012</a></li>
-                            <li><a href="#link" target="_blank" rel="noopener noreferrer">December 2011</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.col-sm-3 -->
-                    <div class="col-sm-3 contacts">
-                      <h2>contact us</h2>
-                      <ul>
-                            <li><a href="mailto:info@premiumcoding.com">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2><a href="about.html">little about us</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus ullam soluta nesciunt iusto vel omnis, fugit aspernatur beatae esse?</p>
+                    <h2>follow us</h2>
+                    <!-- icons go here -->
+                    <a href=#link target="_blank"><img src="media/icons-small-fb.gif" alt="facebook"></a>
+                    <a href=#link target="_blank"><img src="media/icons-small-tw.gif" alt="twitter"></a>
+                    <a href=#link target="_blank"><img src="media/icons-small-rss.gif" alt="rss"></a>
+                    <a href=#link target="_blank"><img src="media/icons-small-vimeo.gif" alt="vimeo"></a>
+                    <a href=#link target="_blank"><img src="media/icons-small-dribble.gif" alt="dribble"></a>
+                    <a href=#link target="_blank"><img src="media/icons-small-blogger.gif" alt="blogger"></a>
+                </div>
+                <!-- /.col-sm-3 -->
+                <div class="col-sm-3 archives">
+                    <h2>archives</h2>
+                    <ul>
+                        <li><a href="#link" target="_blank" rel="noopener noreferrer">March 2012</a></li>
+                        <li><a href="#link" target="_blank" rel="noopener noreferrer">February 2012</a></li>
+                        <li><a href="#link" target="_blank" rel="noopener noreferrer">January 2012</a></li>
+                        <li><a href="#link" target="_blank" rel="noopener noreferrer">December 2011</a></li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-3 -->
+                <div class="col-sm-3 contacts">
+                    <h2>contact us</h2>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="mailto:info@premiumcoding.com">
                                     <img src="media/icon-small-envelope.gif" alt="email">info@premiumcoding.com
                                 </a>
-                            </li>
-                            <li><a href="#link">
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#link">
                                     <img src="media/icon-small-phone copy.gif" alt="phone">800 756 156
                                 </a>
-                            </li>
-                            <li><a href="#link">
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#link">
                                     <img src="media/icon-small-mobile copy.gif" alt="mobile number"> +386408007561
                                 </a>
-                            </li>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.col-sm-3 -->
+                <div class="col-sm-3 subscription">
+                    <h2>sign in to newsletter</h2>
+                    <form action="#link">
+                        <input type="text" name="name" value="Name" class="input-field">
+                        <input type="email" name="email" value="Email" class="input-field">
+                        <input type="submit" name="subscribe" id="submit" class="subscribe-button" value="Subscribe">
+                    </form>
+                </div>
+                <!-- /.col-sm-3 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->  
+    </footer>
+    <div class="colophon">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="bottomnav">
+                        <ul>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">home</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">portfolio</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">sitemap</a></li>
+                            <li><a href="#link" target="_blank" rel="noopener noreferrer">contact</a></li>
                         </ul>
                     </div>
-                    <!-- /.col-sm-3 -->
-                    <div class="col-sm-3 subscription">
-                        <h2>sign in to newsletter</h2>
-                        <form action="#link">
-                            <input type="text" name="name" value="Name" class="input-field">
-                            <input type="email" name="email" value="Email" class="input-field">
-                            <input type="submit" name="subscribe" id="submit" class="subscribe-button" value="Subscribe">
-                        </form>
-                    </div>
-                    <!-- /.col-sm-3 -->
+                    <!-- /.bottomnav -->
                 </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->  
-        </footer>
-        <div class="colophon">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="bottomnav">
-                            <ul>
-                                <li><a href="#link" target="_blank" rel="noopener noreferrer">home</a></li>
-                                <li><a href="#link" target="_blank" rel="noopener noreferrer">portfolio</a></li>
-                                <li><a href="#link" target="_blank" rel="noopener noreferrer">sitemap</a></li>
-                                <li><a href="#link" target="_blank" rel="noopener noreferrer">contact</a></li>
-                            </ul>
-                        </div>
-                          <!-- /.bottomnav -->
-                    </div>
-                    <!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                        <p>&copy;2013 All Rights Reserved</p>
-                    </div>
+                <!-- /.col-sm-6 -->
+                <div class="col-sm-6">
+                    <p>&copy;2013 All Rights Reserved</p>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
+            <!-- /.row -->
         </div>
+        <!-- /.container -->
+    </div>
 </body>
 </html>
